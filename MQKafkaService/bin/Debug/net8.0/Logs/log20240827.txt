@@ -1,0 +1,120 @@
+2024-08-27 17:28:39.891 -04:00 [INF] Application starting up
+2024-08-27 17:28:40.313 -04:00 [ERR] Error reading from IBM MQ.
+System.FormatException: The input string 'YOUR_PORT' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s)
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 25
+2024-08-27 17:28:40.319 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:30:28.142 -04:00 [INF] Application starting up
+2024-08-27 17:30:28.360 -04:00 [ERR] Error reading from IBM MQ.
+System.FormatException: The input string 'YOUR_PORT' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s)
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 25
+2024-08-27 17:30:28.364 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:31:59.526 -04:00 [INF] Application starting up
+2024-08-27 17:32:02.451 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 31
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:32:02.454 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:35:04.711 -04:00 [INF] Application starting up
+2024-08-27 17:35:07.854 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 31
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:35:07.857 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:39:32.671 -04:00 [INF] Application starting up
+2024-08-27 17:39:32.770 -04:00 [INF] MQ Connection factory  starting up
+2024-08-27 17:39:35.578 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 33
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:39:35.581 -04:00 [INF] end of MQ Service
+2024-08-27 17:39:35.581 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:39:35.582 -04:00 [INF] Application shutting down up
+2024-08-27 17:43:19.971 -04:00 [INF] Application starting up
+2024-08-27 17:43:20.091 -04:00 [INF] MQ Connection factory  starting up
+2024-08-27 17:43:22.917 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 33
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:43:22.920 -04:00 [INF] end of MQ Service
+2024-08-27 17:43:22.921 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:43:22.921 -04:00 [INF] Application shutting down up
+2024-08-27 17:43:37.501 -04:00 [INF] Application starting up
+2024-08-27 17:43:37.733 -04:00 [INF] MQ Connection factory  starting up
+2024-08-27 17:43:40.701 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 33
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:43:40.704 -04:00 [INF] end of MQ Service
+2024-08-27 17:43:40.704 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:43:40.705 -04:00 [INF] Application shutting down up
+2024-08-27 17:44:16.835 -04:00 [INF] Application starting up
+2024-08-27 17:44:16.943 -04:00 [INF] MQ Connection factory  starting up
+2024-08-27 17:44:19.777 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 33
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:44:19.782 -04:00 [INF] end of MQ Service
+2024-08-27 17:44:19.782 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:44:19.783 -04:00 [INF] Application shutting down up
+2024-08-27 17:44:34.578 -04:00 [INF] Application starting up
+2024-08-27 17:44:34.870 -04:00 [INF] MQ Connection factory  starting up
+2024-08-27 17:44:37.974 -04:00 [ERR] Error reading from IBM MQ.
+IBM.XMS.XMSException: CWSMQ0006E: An exception was received during the call to the method ConnectionFactory.CreateConnection: CompCode: 2, Reason: 2538.
+During execution of the specified method an exception was thrown by another component.
+See the linked exception for more information.
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateV7ProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.WMQ.Factories.WmqConnectionFactory.CreateProviderConnection(XmsPropertyContext connectionProps)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection(String userID, String password)
+   at IBM.XMS.Client.Impl.XmsConnectionFactoryImpl.CreateConnection()
+   at MQKafkaService.Services.MQReaderService.ReadMessage() in C:\Users\compu\source\repos\MQKafkaService\MQKafkaService\Services\MQReaderService.cs:line 33
+
+Linked Exception : CompCode: 2, Reason: 2538
+2024-08-27 17:44:37.978 -04:00 [INF] end of MQ Service
+2024-08-27 17:44:37.978 -04:00 [WRN] No message read from IBM MQ.
+2024-08-27 17:44:37.979 -04:00 [INF] Application shutting down up
